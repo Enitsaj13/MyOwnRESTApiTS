@@ -1,0 +1,15 @@
+# Ignore all JavaScript files in the "build" directory
+build/**/*.js
+
+# Ignore all TypeScript files in the "dist" directory
+dist/**/*.ts
+
+# Ignore all markdown files in the "docs" directory
+docs/**/*.md
+
+# Ignore specific files
+src/someFile.ts
+src/anotherFile.js
+
+# Ignore all files with a .min.js extension
+*.min.js
