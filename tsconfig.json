@@ -2,17 +2,17 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "baseUrl": "src",                  
+    "baseUrl": "src",
     "paths": {
-      "@models/*": ["models/*"],       
-      "@controllers/*": ["controllers/*"], 
+      "@models/*": ["models/*"],
+      "@controllers/*": ["controllers/*"],
       "@utils/*": ["utils/*"],
       "@services/*": ["services/*"],
       "@routes/*": ["routes/*"],
       "@types/*": ["types/*"],
       "@tests/*": ["tests/*"],
       "@config/*": ["config/*"],
-      "@middlewares/*": ["middlewares/*"] 
+      "@middlewares/*": ["middlewares/*"]
     },
     "outDir": "dist",
     "sourceMap": true,

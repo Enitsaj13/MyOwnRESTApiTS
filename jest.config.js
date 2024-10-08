@@ -1,3 +1,4 @@
+// @ts-check
 module.exports = {
     // Use ts-jest preset for testing TypeScript files with Jest
     preset: "ts-jest",
