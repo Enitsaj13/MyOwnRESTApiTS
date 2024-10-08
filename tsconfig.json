@@ -1,9 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true
-  }
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "src",                  
+    "paths": {
+      "@models/*": ["models/*"],       
+      "@controllers/*": ["controllers/*"], 
+      "@utils/*": ["utils/*"],
+      "@services/*": ["services/*"],
+      "@routes/*": ["routes/*"],
+      "@types/*": ["types/*"],
+      "@tests/*": ["tests/*"],
+      "@config/*": ["config/*"],
+      "@middlewares/*": ["middlewares/*"] 
+    },
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*"]
 }
